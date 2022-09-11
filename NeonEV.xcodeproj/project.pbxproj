@@ -11,6 +11,7 @@
 		83A5DB5D28CD0375007AD85C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5DB5C28CD0375007AD85C /* ContentView.swift */; };
 		83A5DB5F28CD0377007AD85C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A5DB5E28CD0377007AD85C /* Assets.xcassets */; };
 		83A5DB6228CD0377007AD85C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A5DB6128CD0377007AD85C /* Preview Assets.xcassets */; };
+		83A5DB6928CD03B3007AD85C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5DB6828CD03B3007AD85C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		83A5DB5C28CD0375007AD85C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83A5DB5E28CD0377007AD85C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83A5DB6128CD0377007AD85C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83A5DB6828CD03B3007AD85C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				83A5DB5A28CD0375007AD85C /* NeonEVApp.swift */,
 				83A5DB5C28CD0375007AD85C /* ContentView.swift */,
+				83A5DB6828CD03B3007AD85C /* MapView.swift */,
 				83A5DB5E28CD0377007AD85C /* Assets.xcassets */,
 				83A5DB6028CD0377007AD85C /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A5DB5D28CD0375007AD85C /* ContentView.swift in Sources */,
+				83A5DB6928CD03B3007AD85C /* MapView.swift in Sources */,
 				83A5DB5B28CD0375007AD85C /* NeonEVApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +273,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NeonEV/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FUCKING JUST ALLOW IT";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +302,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NeonEV/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FUCKING JUST ALLOW IT";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

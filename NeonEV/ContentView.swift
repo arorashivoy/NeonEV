@@ -6,11 +6,11 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        MapView(coordinate: CLLocationCoordinate2D(latitude: 28.54511, longitude: 77.27294))
     }
 }
 
