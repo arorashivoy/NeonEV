@@ -1,0 +1,12 @@
+/start -> Welcome to NeonEV
+        !!!नियॉनईवी में आपका स्वागत है!!!
+/help -> This Particular message
+        !!!यह विशेष संदेश!!!
+/switch -> Switch on/off your EV
+        !!!अपने ईवी को चालू/बंद करें!!!
+/status -> Battery Status
+        !!!बैटरी की स्थिति!!!
+/range -> Range left
+        !!!रेंज बाकी है!!!
+/health -> Battery Health
+        !!!बैटरी स्वास्थ्य!!!

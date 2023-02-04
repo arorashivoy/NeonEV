@@ -7,20 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		832CF2EC298D9CEC000C41B1 /* LocationManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832CF2EB298D9CEC000C41B1 /* LocationManage.swift */; };
+		832CF2F0298DA456000C41B1 /* CurrMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832CF2EF298DA456000C41B1 /* CurrMapView.swift */; };
+		832CF2F2298DAF91000C41B1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832CF2F1298DAF91000C41B1 /* HomeScreen.swift */; };
+		832CF2F4298DC83F000C41B1 /* BatteryHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832CF2F3298DC83F000C41B1 /* BatteryHealth.swift */; };
+		832CF2F6298E2E66000C41B1 /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832CF2F5298E2E66000C41B1 /* ChatRow.swift */; };
+		832CF2F9298E2E98000C41B1 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832CF2F8298E2E98000C41B1 /* ChatView.swift */; };
+		832CF300298E363C000C41B1 /* switch.txt in Resources */ = {isa = PBXBuildFile; fileRef = 832CF2FB298E363B000C41B1 /* switch.txt */; };
+		832CF301298E363C000C41B1 /* status.txt in Resources */ = {isa = PBXBuildFile; fileRef = 832CF2FC298E363C000C41B1 /* status.txt */; };
+		832CF302298E363C000C41B1 /* hindi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 832CF2FD298E363C000C41B1 /* hindi.txt */; };
+		832CF303298E363C000C41B1 /* range.txt in Resources */ = {isa = PBXBuildFile; fileRef = 832CF2FE298E363C000C41B1 /* range.txt */; };
+		832CF304298E363C000C41B1 /* help.txt in Resources */ = {isa = PBXBuildFile; fileRef = 832CF2FF298E363C000C41B1 /* help.txt */; };
 		83A5DB5B28CD0375007AD85C /* NeonEVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5DB5A28CD0375007AD85C /* NeonEVApp.swift */; };
 		83A5DB5D28CD0375007AD85C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5DB5C28CD0375007AD85C /* ContentView.swift */; };
 		83A5DB5F28CD0377007AD85C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A5DB5E28CD0377007AD85C /* Assets.xcassets */; };
 		83A5DB6228CD0377007AD85C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A5DB6128CD0377007AD85C /* Preview Assets.xcassets */; };
-		83A5DB6928CD03B3007AD85C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5DB6828CD03B3007AD85C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		832CF2EB298D9CEC000C41B1 /* LocationManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManage.swift; sourceTree = "<group>"; };
+		832CF2ED298DA3B7000C41B1 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		832CF2EE298DA3FB000C41B1 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Location.gpx; path = NeonEV/Location.gpx; sourceTree = "<group>"; };
+		832CF2EF298DA456000C41B1 /* CurrMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrMapView.swift; sourceTree = "<group>"; };
+		832CF2F1298DAF91000C41B1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		832CF2F3298DC83F000C41B1 /* BatteryHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryHealth.swift; sourceTree = "<group>"; };
+		832CF2F5298E2E66000C41B1 /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		832CF2F8298E2E98000C41B1 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		832CF2FB298E363B000C41B1 /* switch.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = switch.txt; sourceTree = "<group>"; };
+		832CF2FC298E363C000C41B1 /* status.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = status.txt; sourceTree = "<group>"; };
+		832CF2FD298E363C000C41B1 /* hindi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hindi.txt; sourceTree = "<group>"; };
+		832CF2FE298E363C000C41B1 /* range.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = range.txt; sourceTree = "<group>"; };
+		832CF2FF298E363C000C41B1 /* help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = help.txt; sourceTree = "<group>"; };
 		83A5DB5728CD0375007AD85C /* NeonEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A5DB5A28CD0375007AD85C /* NeonEVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonEVApp.swift; sourceTree = "<group>"; };
 		83A5DB5C28CD0375007AD85C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83A5DB5E28CD0377007AD85C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83A5DB6128CD0377007AD85C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		83A5DB6828CD03B3007AD85C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,9 +56,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		832CF2F7298E2E72000C41B1 /* ChatBot */ = {
+			isa = PBXGroup;
+			children = (
+				832CF2F5298E2E66000C41B1 /* ChatRow.swift */,
+				832CF2F8298E2E98000C41B1 /* ChatView.swift */,
+			);
+			path = ChatBot;
+			sourceTree = "<group>";
+		};
+		832CF2FA298E35F2000C41B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				832CF2FF298E363C000C41B1 /* help.txt */,
+				832CF2FD298E363C000C41B1 /* hindi.txt */,
+				832CF2FE298E363C000C41B1 /* range.txt */,
+				832CF2FC298E363C000C41B1 /* status.txt */,
+				832CF2FB298E363B000C41B1 /* switch.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		83A5DB4E28CD0375007AD85C = {
 			isa = PBXGroup;
 			children = (
+				832CF2EE298DA3FB000C41B1 /* Location.gpx */,
 				83A5DB5928CD0375007AD85C /* NeonEV */,
 				83A5DB5828CD0375007AD85C /* Products */,
 			);
@@ -55,7 +99,13 @@
 			children = (
 				83A5DB5A28CD0375007AD85C /* NeonEVApp.swift */,
 				83A5DB5C28CD0375007AD85C /* ContentView.swift */,
-				83A5DB6828CD03B3007AD85C /* MapView.swift */,
+				832CF2EF298DA456000C41B1 /* CurrMapView.swift */,
+				832CF2ED298DA3B7000C41B1 /* Location.gpx */,
+				832CF2EB298D9CEC000C41B1 /* LocationManage.swift */,
+				832CF2F1298DAF91000C41B1 /* HomeScreen.swift */,
+				832CF2F3298DC83F000C41B1 /* BatteryHealth.swift */,
+				832CF2F7298E2E72000C41B1 /* ChatBot */,
+				832CF2FA298E35F2000C41B1 /* Resources */,
 				83A5DB5E28CD0377007AD85C /* Assets.xcassets */,
 				83A5DB6028CD0377007AD85C /* Preview Content */,
 			);
@@ -128,8 +178,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832CF301298E363C000C41B1 /* status.txt in Resources */,
+				832CF302298E363C000C41B1 /* hindi.txt in Resources */,
+				832CF304298E363C000C41B1 /* help.txt in Resources */,
 				83A5DB6228CD0377007AD85C /* Preview Assets.xcassets in Resources */,
 				83A5DB5F28CD0377007AD85C /* Assets.xcassets in Resources */,
+				832CF303298E363C000C41B1 /* range.txt in Resources */,
+				832CF300298E363C000C41B1 /* switch.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +195,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832CF2F6298E2E66000C41B1 /* ChatRow.swift in Sources */,
 				83A5DB5D28CD0375007AD85C /* ContentView.swift in Sources */,
-				83A5DB6928CD03B3007AD85C /* MapView.swift in Sources */,
+				832CF2EC298D9CEC000C41B1 /* LocationManage.swift in Sources */,
+				832CF2F4298DC83F000C41B1 /* BatteryHealth.swift in Sources */,
+				832CF2F9298E2E98000C41B1 /* ChatView.swift in Sources */,
+				832CF2F2298DAF91000C41B1 /* HomeScreen.swift in Sources */,
+				832CF2F0298DA456000C41B1 /* CurrMapView.swift in Sources */,
 				83A5DB5B28CD0375007AD85C /* NeonEVApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NeonEV/Preview Content\"";
+				DEVELOPMENT_TEAM = 62W399JN7W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FUCKING JUST ALLOW IT";
@@ -279,6 +340,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NeonEV/Preview Content\"";
+				DEVELOPMENT_TEAM = 62W399JN7W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "FUCKING JUST ALLOW IT";
@@ -308,6 +371,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
