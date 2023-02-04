@@ -1,5 +1,5 @@
 # NeonEV
-WUElev8 - DecodeEV Hackathon 
+WUElev8 - Green India Hackathon 
 
 By Team - **Spambots**
 
