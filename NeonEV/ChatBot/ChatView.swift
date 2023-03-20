@@ -83,111 +83,8 @@ struct ChatView: View {
                     
                     // Button actions
                     Button(action: {
-                        self.message.msg = msgText
-                        self.message.who = true
-                        //                        self.message.id = UUID()
+                        sendButtonAction()
                         
-                        self.messages.append(self.message)
-                        self.message = msg()
-                        
-                        if (msgText.lowercased() == "start") {
-                            self.message.msg = """
-!!!'Welcome to NeonEV'!!!
-!!!नियॉनईवी में आपका स्वागत है!!!
-"""
-                            self.message.who = false
-                            self.messages.append(self.message)
-                            self.message = msg()
-                            
-                        }
-                        else if (msgText.lowercased() == "help") {
-                            self.message.msg = """
-start ->    Welcome to NeonEV
-            !!!नियॉनईवी में आपका स्वागत है!!!
-help ->     This Particular message
-            !!!यह विशेष संदेश!!!
-switch ->   Switch on/off your EV
-            !!!अपने ईवी को चालू/बंद करें!!!
-status ->   Battery Status
-            !!!बैटरी की स्थिति!!!
-range ->    Range left
-            !!!रेंज बाकी है!!!
-health ->   Battery Health
-            !!!बैटरी स्वास्थ्य!!!
-"""
-                            self.message.who = false
-                            self.messages.append(self.message)
-                            self.message = msg()
-                        }
-                        
-                        else if (msgText.lowercased() == "switch") {
-                            self.message.msg = """
-EV is on
-!!!ईवी चालू है!!!
-"""
-                            
-                            self.message.who = false
-                            self.messages.append(self.message)
-                            self.message = msg()
-                        }
-                        
-                        else if (msgText.lowercased() == "status") {
-                            self.message.msg = """
-Battery Capacity 62%
-!!!बैटरी क्षमता 62%!!!
-"""
-                            self.message.who = false
-                            self.messages.append(self.message)
-                            self.message = msg()
-                        }
-                        else if (msgText.lowercased() == "range") {
-                            self.message.msg = """
-Range left 80km
-!!!80 किमी की रेंज बाकी है!!!
-"""
-                            self.message.who = false
-                            self.messages.append(self.message)
-                            self.message = msg()
-                        }
-                        
-                        else if (msgText.lowercased() == "health") {
-                            self.message.msg = """
-Battery Needs Replacement
-!!!बैटरी बदलने की जरूरत है!!!
-"""
-                            self.message.who = false
-                            self.messages.append(self.message)
-                            self.message = msg()
-                        }
-                        else {
-                            self.message.msg = """
-Please choose correct option
-!!!कृपया सही विकल्प चुनें!!!
-"""
-                            self.message.who = false
-                            self.messages.append(self.message)
-                            self.message = msg()
-                            
-                            self.message.msg = """
-start ->    Welcome to NeonEV
-            !!!नियॉनईवी में आपका स्वागत है!!!
-help ->     This Particular message
-            !!!यह विशेष संदेश!!!
-switch ->   Switch on/off your EV
-            !!!अपने ईवी को चालू/बंद करें!!!
-status ->   Battery Status
-            !!!बैटरी की स्थिति!!!
-range ->    Range left
-            !!!रेंज बाकी है!!!
-health ->   Battery Health
-            !!!बैटरी स्वास्थ्य!!!
-"""
-                            self.message.who = false
-                            self.messages.append(self.message)
-                            self.message = msg()
-                        }
-                        
-                        self.msgText = ""
                         
                     }) {
                         Text("Send")
@@ -200,6 +97,113 @@ health ->   Battery Health
                 .padding()
             }
         }
+    }
+    
+    func sendButtonAction() {
+        self.message.msg = msgText
+        self.message.who = true
+        
+        self.messages.append(self.message)
+        self.message = msg()
+        
+        if (msgText.lowercased() == "start") {
+            self.message.msg = """
+!!!'Welcome to NeonEV'!!!
+!!!नियॉनईवी में आपका स्वागत है!!!
+"""
+            self.message.who = false
+            self.messages.append(self.message)
+            self.message = msg()
+            
+        }
+        else if (msgText.lowercased() == "help") {
+            self.message.msg = """
+start ->    Welcome to NeonEV
+!!!नियॉनईवी में आपका स्वागत है!!!
+help ->     This Particular message
+!!!यह विशेष संदेश!!!
+switch ->   Switch on/off your EV
+!!!अपने ईवी को चालू/बंद करें!!!
+status ->   Battery Status
+!!!बैटरी की स्थिति!!!
+range ->    Range left
+!!!रेंज बाकी है!!!
+health ->   Battery Health
+!!!बैटरी स्वास्थ्य!!!
+"""
+            self.message.who = false
+            self.messages.append(self.message)
+            self.message = msg()
+        }
+        
+        else if (msgText.lowercased() == "switch") {
+            self.message.msg = """
+EV is on
+!!!ईवी चालू है!!!
+"""
+            
+            self.message.who = false
+            self.messages.append(self.message)
+            self.message = msg()
+        }
+        
+        else if (msgText.lowercased() == "status") {
+            self.message.msg = """
+Battery Capacity 62%
+!!!बैटरी क्षमता 62%!!!
+"""
+            self.message.who = false
+            self.messages.append(self.message)
+            self.message = msg()
+        }
+        else if (msgText.lowercased() == "range") {
+            self.message.msg = """
+Range left 80km
+!!!80 किमी की रेंज बाकी है!!!
+"""
+            self.message.who = false
+            self.messages.append(self.message)
+            self.message = msg()
+        }
+        
+        else if (msgText.lowercased() == "health") {
+            self.message.msg = """
+Battery Needs Replacement
+!!!बैटरी बदलने की जरूरत है!!!
+"""
+            self.message.who = false
+            self.messages.append(self.message)
+            self.message = msg()
+        }
+        else {
+            self.message.msg = """
+Please choose correct option
+!!!कृपया सही विकल्प चुनें!!!
+"""
+            self.message.who = false
+            self.messages.append(self.message)
+            self.message = msg()
+            
+            self.message.msg = """
+start ->    Welcome to NeonEV
+!!!नियॉनईवी में आपका स्वागत है!!!
+help ->     This Particular message
+!!!यह विशेष संदेश!!!
+switch ->   Switch on/off your EV
+!!!अपने ईवी को चालू/बंद करें!!!
+status ->   Battery Status
+!!!बैटरी की स्थिति!!!
+range ->    Range left
+!!!रेंज बाकी है!!!
+health ->   Battery Health
+!!!बैटरी स्वास्थ्य!!!
+"""
+            self.message.who = false
+            self.messages.append(self.message)
+            self.message = msg()
+        }
+        
+        self.msgText = ""
     }
 }
 
